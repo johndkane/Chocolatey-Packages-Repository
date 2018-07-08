@@ -1,0 +1,30 @@
+﻿<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>programmers-notepad</id>
+    <version>2.4.2</version>
+    <packageSourceUrl>https://github.com/simonsteele/pn/releases/download/v2.4.2/pn2421440_multilang.exe</packageSourceUrl>
+    <owners>John D. Kane</owners>
+    <title>Programmer's Notepad (Install)</title>
+    <authors>Simon Steele</authors>
+    <projectUrl>http://www.pnotepad.org</projectUrl>    
+    <licenseUrl>http://www.pnotepad.org/pn-license/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/simonsteele/pn</projectSourceUrl>
+    <docsUrl>https://github.com/simonsteele/pn/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/simonsteele/pn/issues</bugTrackerUrl>
+    <tags>programmers-notepad code editor</tags>
+    <summary>Programmer's Notepad is a text editor for Windows.</summary>
+    <description>Featuring: 
+Syntax highlighting,
+Text Clips for simple text insertion,
+Code folding / outlining,
+Flexible Regular Expression support,
+Code navigation using Ctags,
+Projects for navigating large code bases,
+Extend using Python or C++
+    </description>    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
